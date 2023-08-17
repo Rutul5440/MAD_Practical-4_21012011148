@@ -39,9 +39,10 @@
                     android:text="User Full Name"/>
 
                 <EditText
-                    android:layout_width="195dp"
-                    android:layout_height="wrap_content" />
-
+                    android:layout_width="198dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+s
             </LinearLayout>
 
             <LinearLayout
@@ -58,7 +59,9 @@
 
                 <EditText
                     android:layout_width="195dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    />
 
             </LinearLayout>
 
@@ -76,7 +79,8 @@
 
                 <EditText
                     android:layout_width="195dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
 
             </LinearLayout>
 
@@ -94,7 +98,8 @@
 
                 <EditText
                     android:layout_width="195dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
 
             </LinearLayout>
 
@@ -113,7 +118,8 @@
                 <EditText
                     android:layout_width="195dp"
                     android:layout_height="wrap_content"
-                    android:inputType="numberPassword" />
+                    android:inputType="numberPassword|text"
+                    />
 
             </LinearLayout>
 
@@ -132,7 +138,7 @@
                 <EditText
                     android:layout_width="195dp"
                     android:layout_height="wrap_content"
-                    android:inputType="numberPassword" />
+                    android:inputType="numberPassword|text" />
 
             </LinearLayout>
 
