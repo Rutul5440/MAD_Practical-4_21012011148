@@ -118,7 +118,7 @@ s
                 <EditText
                     android:layout_width="195dp"
                     android:layout_height="wrap_content"
-                    android:inputType="numberPassword|text"
+                    android:inputType="numberPassword"
                     />
 
             </LinearLayout>
@@ -138,7 +138,7 @@ s
                 <EditText
                     android:layout_width="195dp"
                     android:layout_height="wrap_content"
-                    android:inputType="numberPassword|text" />
+                    android:inputType="numberPassword" />
 
             </LinearLayout>
 
@@ -175,13 +175,15 @@ s
             android:textSize="15sp"/>
 
         <Button
+            android:id="@+id/LoginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:textSize="15sp"
             android:text="LOGIN"
             android:textColor="	#AA336A"
-            android:backgroundTint="@color/white"/>
+            android:backgroundTint="#00FFFFFF"
+            />
 
     </LinearLayout>
 

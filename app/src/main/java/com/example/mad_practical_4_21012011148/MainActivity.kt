@@ -1,10 +1,8 @@
 package com.example.mad_practical_4_21012011148
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,20 +11,11 @@ class MainActivity : AppCompatActivity() {
         val signup:Button = findViewById(R.id.signup)
 
         Login.setOnClickListener {
-
-
-//           val intent=Intent(this,LoginActivity::class.java)
-//            startActivity(intent)
-
-
          Intent(this@MainActivity, LoginActivity::class.java).also { startActivity(it) }
         }
 
       signup.setOnClickListener {
             Intent(this@MainActivity,RegistrationActivity::class.java).also { startActivity(it) }
         }
-
-
-
     }
 }
